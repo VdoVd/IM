@@ -8,9 +8,32 @@
 			}
 		},
 		{
+			"path": "pages/chat/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		
+		{
+			"path": "pages/contact/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
 			}
 		}
 	],
@@ -20,5 +43,32 @@
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
 	},
-	"uniIdRouter": {}
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+			"pagePath": "pages/chat/index",
+			"iconPath": "static/Chat.svg",
+			"selectedIconPath": "static/Chat_s.svg",
+			"text": "chat"
+		}, 
+		{
+			"pagePath": "pages/contact/index",
+			"iconPath": "static/mood-happy.svg",
+			"selectedIconPath": "static/mood-happy_s.svg",
+			"text": "content"
+		},
+		{
+			"pagePath": "pages/mine/index",
+			"iconPath": "static/mine.svg",
+			"selectedIconPath": "static/mine_s.svg",
+			"text": "mine"
+		}
+		]
+	}
+
+
 }

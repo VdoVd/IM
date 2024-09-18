@@ -1,20 +1,7 @@
 <template>
 	<view class="box">
 		
-		<u-field
-			class="input"
-			v-model="tel"
-			label="tel"
-		>
-		</u-field>
-		<u-field
-			v-model="pass"
-			label="pass"
-			class="input"
-		>
-		</u-field>
-		<button class="button" @click="submit()">login</button>
-
+		<view>mine</view>
 	</view>
 </template>
 
@@ -34,9 +21,11 @@
 		methods:{
 			submit(){
 				uni.navigateTo({
-					url:'/pages/chat/index'
+					url:'/pages/index/index'
+				}),
+				uni.showToast({
+					data:"login"
 				})
-				console.log('it----------')
 			}
 		}
 	}
